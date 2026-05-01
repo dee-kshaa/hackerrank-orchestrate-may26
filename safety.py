@@ -1,7 +1,5 @@
 """Safety and escalation module."""
 
-from typing import Tuple
-
 
 HIGH_RISK_KEYWORDS = [
     "lawsuit",
@@ -17,19 +15,27 @@ HIGH_RISK_KEYWORDS = [
 ]
 
 
-def check_safety(text: str) -> Tuple[bool, str]:
+def check_safety(text, config=None):
 
-    lower_text = text.lower()
+    lower_text = str(text).lower()
 
     for keyword in HIGH_RISK_KEYWORDS:
         if keyword in lower_text:
-            return False, f"High-risk keyword detected: {keyword}"
+            return {
+                "safe": False,
+                "risk_level": "high",
+                "reason": f"High-risk keyword detected: {keyword}"
+            }
 
-    return True, "Safe"
+    return {
+        "safe": True,
+        "risk_level": "low",
+        "reason": "Safe"
+    }
 
 
-def should_escalate(text: str) -> bool:
+def should_escalate(text, config=None):
 
-    is_safe, _ = check_safety(text)
+    result = check_safety(text)
 
-    return not is_safe
+    return not result["safe"]

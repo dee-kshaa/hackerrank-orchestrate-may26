@@ -1,0 +1,29 @@
+User:
+Build a terminal-based multi-domain support triage RAG agent.
+
+AI:
+Generated modular architecture with:
+- main.py
+- classify.py
+- ingest.py
+- retrieve.py
+- safety.py
+- respond.py
+
+User:
+Fix ImportError in classify.py
+
+AI:
+Added classify_request() wrapper function.
+
+User:
+Integrate project into HackerRank starter repository.
+
+AI:
+Merged artifacts into hackathon repo and updated dependencies.
+
+User:
+Generate output.csv for support ticket processing.
+
+AI:
+Generated sample output CSV with ticket classifications and escalation results.
