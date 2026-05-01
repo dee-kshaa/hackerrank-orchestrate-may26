@@ -2,7 +2,8 @@
 Main orchestrator for Support Triage RAG Agent
 Coordinates classification, safety, retrieval, and response generation
 """
-
+import pandas as pd
+import os
 import sys
 import json
 import csv
@@ -181,12 +182,20 @@ def export_results(results: list, output_file: str = "output.csv"):
     
     try:
         with open(output_file, 'w', newline='', encoding='utf-8') as f:
-            fieldnames = ['ticket_id', 'request_type', 'product_area', 'action', 'confidence', 'response', 'timestamp']
+            fieldnames = ['status', 'product_area', 'response', 'justification', 'request_type']
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             
             writer.writeheader()
             for result in results:
-                writer.writerow(result)
+                row = {
+        "status": "escalated" if result['action'] == 'ESCALATE' else "replied",
+        "product_area": result['product_area'],
+        "response": result['response'],
+        "justification": f"Ticket classified as {result['request_type']} and processed through safety checks.",
+        "request_type": result['request_type']
+    }
+
+            writer.writerow(row)
         
         logger.info(f"Results exported to {output_file}")
     

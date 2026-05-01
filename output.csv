@@ -1,5 +1,2 @@
-ticket_id,category,priority,response,escalate
-1,account,medium,Please reset your password using the account recovery page.,FALSE
-2,billing,high,Your payment issue has been forwarded to billing support.,TRUE
-3,technical,medium,Please clear cache and retry the operation.,FALSE
-4,visa,high,Your visa processing request has been escalated.,TRUE
+status,product_area,response,justification,request_type
+replied,unknown,Thank you for contacting us. Our support team will review your request and respond shortly.,Ticket classified as general and processed through safety checks.,general
