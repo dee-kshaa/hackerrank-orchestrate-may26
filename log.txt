@@ -1,0 +1,75 @@
+2026-05-01 18:47:42 - utils - INFO - Support Triage RAG Agent Started
+2026-05-01 18:47:42 - utils - INFO - Ingesting corpus from data/support_tickets.csv
+2026-05-01 18:47:43 - utils - INFO - Support Triage RAG Agent Started
+2026-05-01 18:47:43 - utils - INFO - 
+======================================================================
+2026-05-01 18:47:43 - utils - INFO - Support Triage RAG Agent - Interactive Mode
+2026-05-01 18:47:43 - utils - INFO - ======================================================================
+
+2026-05-01 18:48:51 - utils - INFO - 
+======================================================================
+2026-05-01 18:48:51 - utils - INFO - Processing ticket: how do i reset my password?
+2026-05-01 18:48:51 - utils - INFO - ======================================================================
+2026-05-01 18:48:51 - utils - INFO - [STEP 1] Classification
+2026-05-01 18:48:51 - utils - INFO -   Request Type: general (confidence: 0.300)
+2026-05-01 18:48:51 - utils - INFO -   Product Area: unknown (confidence: 0.300)
+2026-05-01 18:48:51 - utils - INFO - [STEP 2] Safety Check
+2026-05-01 18:48:51 - utils - ERROR - Error: check_safety() takes 1 positional argument but 2 were given
+2026-05-01 18:49:43 - utils - INFO - 
+======================================================================
+2026-05-01 18:49:43 - utils - INFO - Processing ticket: TICKET-00001
+2026-05-01 18:49:43 - utils - INFO - ======================================================================
+2026-05-01 18:49:43 - utils - INFO - [STEP 1] Classification
+2026-05-01 18:49:43 - utils - INFO -   Request Type: account_issue (confidence: 0.700)
+2026-05-01 18:49:43 - utils - INFO -   Product Area: unknown (confidence: 0.300)
+2026-05-01 18:49:43 - utils - INFO - [STEP 2] Safety Check
+2026-05-01 18:49:43 - utils - ERROR - Error: check_safety() takes 1 positional argument but 2 were given
+2026-05-01 18:50:04 - utils - WARNING - Empty ticket content
+2026-05-01 18:50:07 - utils - INFO - 
+======================================================================
+2026-05-01 18:50:07 - utils - INFO - Processing ticket: TICKET-00002
+2026-05-01 18:50:07 - utils - INFO - ======================================================================
+2026-05-01 18:50:07 - utils - INFO - [STEP 1] Classification
+2026-05-01 18:50:07 - utils - INFO -   Request Type: account_issue (confidence: 0.700)
+2026-05-01 18:50:07 - utils - INFO -   Product Area: Claude (confidence: 0.800)
+2026-05-01 18:50:07 - utils - INFO - [STEP 2] Safety Check
+2026-05-01 18:50:07 - utils - ERROR - Error: check_safety() takes 1 positional argument but 2 were given
+2026-05-01 18:50:28 - utils - INFO - 
+======================================================================
+2026-05-01 18:50:28 - utils - INFO - Processing ticket: TICKET-00003
+2026-05-01 18:50:28 - utils - INFO - ======================================================================
+2026-05-01 18:50:28 - utils - INFO - [STEP 1] Classification
+2026-05-01 18:50:28 - utils - INFO -   Request Type: account_issue (confidence: 0.700)
+2026-05-01 18:50:28 - utils - INFO -   Product Area: unknown (confidence: 0.300)
+2026-05-01 18:50:28 - utils - INFO - [STEP 2] Safety Check
+2026-05-01 18:50:28 - utils - ERROR - Error: check_safety() takes 1 positional argument but 2 were given
+2026-05-01 18:50:41 - utils - INFO - 
+======================================================================
+2026-05-01 18:50:41 - utils - INFO - Processing ticket: TICKET-00004
+2026-05-01 18:50:41 - utils - INFO - ======================================================================
+2026-05-01 18:50:41 - utils - INFO - [STEP 1] Classification
+2026-05-01 18:50:41 - utils - INFO -   Request Type: billing (confidence: 0.700)
+2026-05-01 18:50:41 - utils - INFO -   Product Area: unknown (confidence: 0.300)
+2026-05-01 18:50:41 - utils - INFO - [STEP 2] Safety Check
+2026-05-01 18:50:41 - utils - ERROR - Error: check_safety() takes 1 positional argument but 2 were given
+2026-05-01 18:50:44 - utils - INFO - 
+
+Exiting...
+2026-05-01 19:29:48 - utils - INFO - Support Triage RAG Agent Started
+2026-05-01 19:29:48 - utils - INFO - 
+======================================================================
+2026-05-01 19:29:48 - utils - INFO - Support Triage RAG Agent - Interactive Mode
+2026-05-01 19:29:48 - utils - INFO - ======================================================================
+
+2026-05-01 19:30:06 - utils - INFO - 
+======================================================================
+2026-05-01 19:30:06 - utils - INFO - Processing ticket: TICKET-00001
+2026-05-01 19:30:06 - utils - INFO - ======================================================================
+2026-05-01 19:30:06 - utils - INFO - [STEP 1] Classification
+2026-05-01 19:30:06 - utils - INFO -   Request Type: account_issue (confidence: 0.700)
+2026-05-01 19:30:06 - utils - INFO -   Product Area: unknown (confidence: 0.300)
+2026-05-01 19:30:06 - utils - INFO - [STEP 2] Safety Check
+2026-05-01 19:30:06 - utils - ERROR - Error: check_safety() takes 1 positional argument but 2 were given
+2026-05-01 19:30:09 - utils - INFO - 
+
+Exiting...

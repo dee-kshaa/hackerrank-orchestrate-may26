@@ -1,0 +1,42 @@
+[
+  {
+    "ticket_id": "TICKET-00001",
+    "content": "I forgot my Claude password and can't log in. I've tried the password reset but haven't received the email yet. What should I do?"
+  },
+  {
+    "ticket_id": "TICKET-00002",
+    "content": "Someone made an unauthorized charge of $500 to my Claude account. I don't recognize this transaction and want a refund immediately. This might be fraud."
+  },
+  {
+    "ticket_id": "TICKET-00003",
+    "content": "How do I enable two-factor authentication on my Claude account for better security?"
+  },
+  {
+    "ticket_id": "TICKET-00004",
+    "content": "My team needs access to a private assessment on HackerRank. How do I grant permissions to specific team members?"
+  },
+  {
+    "ticket_id": "TICKET-00005",
+    "content": "I was charged twice for my Visa card payment on the same day. This appears to be a duplicate charge. I need this resolved and want a chargeback if necessary."
+  },
+  {
+    "ticket_id": "TICKET-00006",
+    "content": "How does the grading work on HackerRank coding assessments? I submitted a solution but my score seems incorrect."
+  },
+  {
+    "ticket_id": "TICKET-00007",
+    "content": "I can't access the billing dashboard for Claude. I just want to check my recent invoices and payment method."
+  },
+  {
+    "ticket_id": "TICKET-00008",
+    "content": "My account appears to be hacked! I see login attempts from countries I've never been to, and my API key might be compromised. Please help immediately!"
+  },
+  {
+    "ticket_id": "TICKET-00009",
+    "content": "What are the different pricing tiers for Claude API, and how is usage billed exactly?"
+  },
+  {
+    "ticket_id": "TICKET-00010",
+    "content": "I want to cancel my Claude subscription. What happens to my saved progress and certificates?"
+  }
+]
